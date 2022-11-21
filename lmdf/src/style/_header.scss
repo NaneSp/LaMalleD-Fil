@@ -1,0 +1,12 @@
+.header{
+    border: red solid 4px;
+    background-color: white;
+    width: 100%;
+    height: 60px;
+    &__logo{
+        border: green solid 4px;
+        width: 40%;
+        height: 100%;
+        object-fit: cover;
+    }
+}

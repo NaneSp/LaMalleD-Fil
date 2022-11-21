@@ -1,0 +1,13 @@
+.footer{
+    border: yellow solid 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+    &__texte{
+        border: pink solid 4px;
+        width: 80%;
+        font-size: 9px;
+    }
+}
