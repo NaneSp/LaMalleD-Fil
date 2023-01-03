@@ -1,0 +1,18 @@
+.navigation{
+    //border: solid 1px orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    
+    
+    
+
+    &__link-home, &__link-about{
+        //border: solid 1px green;
+        margin-right: 20px;
+        
+        
+    }
+
+}

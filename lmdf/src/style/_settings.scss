@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Yomogi&display=swap');
@@ -8,10 +9,15 @@ $police :"Yomogi", "sans-serif";
 
 body{
     border: black solid 5px;
-    //width: 1440px;
-    //height: 1240px;
-    margin: 0;
+    max-width: 1024px;
+    max-height: 1440px;
+    margin: auto;
     padding: 0;
     color: black;
     font-family: $police;
+    font-size: small;
+    border: solid green 5px;
+    
+
+
 }
